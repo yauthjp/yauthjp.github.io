@@ -1,6 +1,7 @@
 <!-- Header -->
 <header id="header"{% if page.layout == 'landing' %} class="alt"{% endif %}>
   <h1><a href="{{ site.baseurl }}">{{ site.title }}</a></h1>
+  <!--
   <nav id="nav">
     <ul>
       <li class="special">
@@ -8,11 +9,6 @@
         <div id="menu">
           <ul>
             <li><a href="{{ site.baseurl }}">Home</a></li>
-            {% for external_link in site.external_links %}
-            {% if external_link.title %}
-            <li><a href="{{ external_link.url }}">{{ external_link.title }}</a></li>
-            {% endif %}
-            {% endfor %}
             {% for page in site.pages %}
             {% if page.title %}
             <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
@@ -23,4 +19,5 @@
       </li>
     </ul>
   </nav>
+  -->
 </header>
