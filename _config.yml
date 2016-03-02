@@ -1,10 +1,12 @@
 # Welcome to Jekyll!
 #
 
+# Theme: http://jekyllthemes.org/themes/spectral/
+
 # Site settings
 title: YAuth.jp
 description: |
-  Consulting Company around Digital Identity Technology by [Nov Matake](http://matake.jp)
+  Consulting around Digital Identity Technology by [Nov Matake](http://matake.jp)
 owner: YAuth.jp
 first_published: 2016 # if migrating another site, the year of your first publish
 email: nov@yauth.jp
