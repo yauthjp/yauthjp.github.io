@@ -10,6 +10,16 @@ first_published: 2016 # if migrating another site, the year of your first publis
 email: nov@yauth.jp
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yauth.jp" # the base hostname & protocol for your site
+external_links:
+  - matakejp:
+    title: matake.jp
+    url: http://matake.jp
+  - oauthjp:
+    title: OAuth.jp
+    url: http://oauth.jp
+  - idcon:
+    title: idcon.org
+    url: http://idcon.org
 social:
   twitter: https://twitter.com/nov
   facebook-official: https://facebook.com/matake
