@@ -3,3 +3,24 @@
     margin-bottom: .6em;
   }
 }
+
+table {
+  th {
+    min-width: 180px;
+  }
+  @include breakpoint(large) {
+    th {
+      min-width: 150px;
+    }
+  }
+  @include breakpoint(medium) {
+    th {
+      min-width: 120px;
+    }
+  }
+  @include breakpoint(small) {
+    th {
+      min-width: 90px;
+    }
+  }
+}
