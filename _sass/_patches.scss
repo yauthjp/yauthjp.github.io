@@ -29,3 +29,26 @@ table {
     }
   }
 }
+
+.rules {
+  section {
+    margin-bottom: 2em;
+  }
+  p {
+    margin-bottom: 1em;
+  }
+  table {
+    caption {
+      margin-bottom: .5em;
+    }
+    th {
+      padding: 0.75em;
+    }
+    ul {
+      margin-bottom: 0;
+    }
+  }
+  ol {
+    padding-left: 2em;
+  }
+}
