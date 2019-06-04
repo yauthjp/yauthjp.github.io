@@ -1,0 +1,9 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [{
+      "appID": "463B78H73M.jp.yauth.signin",
+      "paths": ["*"]
+    }]
+  }
+}
